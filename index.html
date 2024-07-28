@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMH - Model Ambassador Competition</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="#home"><img src="./images/logo-main1.png" alt="TMH Logo"></a></div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#news-events">News / Events</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="advert">
+            <h1>Welcome to the Brand Ambassador Competition</h1>
+            <p>Advertise your brand / business here and reach millions of people!</p>
+        </div>
+        <div class="hero">
+            <div class="hero-left">
+                <p>Be the next</p>
+                <h1>Brand Ambassador</h1>
+                <button class="apply-button">Apply Now!</button>
+            </div>
+            <div class="hero-right">
+               <div class="gallery" id="gallery">
+                    <!-- Model images will be injected here by JavaScript -->
+                </div> 
+            </div>
+        </div>  
+    </section>
+
+    <section id="models">
+        <div class="models-header">
+            <h2>Discover the Next Brand Ambassador</h2>
+            <p>Where Dreams Take the Spotlight and Elegance Meets Opportunity</p>
+        </div>
+        <div class="carousel">
+            <button class="carousel-button prev" onclick="moveCarousel(-1)">&#10094;</button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track" id="carousel-track">
+                    <!-- Carousel items will be injected here by JavaScript -->
+                </ul>
+            </div>
+            <button class="carousel-button next" onclick="moveCarousel(1)">&#10095;</button>
+        </div>
+        <p class="see-more">See more ></p>
+    </section>
+
+    <section id="news-events">
+        <div class="news-header">
+            <h1>News & Events</h1>
+            <p>Stay updated with the latest news and events</p>
+        </div>
+        <div class="news-container">
+            <div class="news-card">
+                <img src="images/event1.jpg" alt="Event 1">
+                <div class="news-content">
+                    <h3>Grand Finale Event</h3>
+                    <p class="date">July 30, 2024</p>
+                    <p>Join us for the grand finale of the Brand Ambassador Competition and see who will be crowned the next ambassador.</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="images/event2.jpg" alt="Event 2">
+                <div class="news-content">
+                    <h3>Networking Gala</h3>
+                    <p class="date">August 15, 2024</p>
+                    <p>Meet industry professionals and fellow models at our exclusive networking gala.</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="images/event3.jpg" alt="Event 3">
+                <div class="news-content">
+                    <h3>Photoshoot Workshop</h3>
+                    <p class="date">September 10, 2024</p>
+                    <p>Enhance your portfolio with our professional photoshoot workshop, guided by top photographers.</p>
+                </div>
+            </div>
+        </div>
+        <p class="see-more">See more ></p>
+    </section>
+
+    <section id="blog">
+        <div class="blog-header">
+            <h1>From Our Blog</h1>
+            <p>Insights, stories, and tips from the world of modeling</p>
+        </div>
+        <div class="blog-container">
+            <div class="blog-card">
+                <img src="images/blog1.jpg" alt="Blog 1">
+                <div class="blog-content">
+                    <h3>How to Ace Your First Photoshoot</h3>
+                    <p class="date">July 1, 2024</p>
+                    <p>Discover essential tips and tricks to make your first photoshoot a success.</p>
+                    <a href="#" class="read-more">Read More ></a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog2.jpg" alt="Blog 2">
+                <div class="blog-content">
+                    <h3>Networking Tips for Aspiring Models</h3>
+                    <p class="date">June 15, 2024</p>
+                    <p>Learn how to connect with industry professionals and grow your network.</p>
+                    <a href="#" class="read-more">Read More ></a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="images/blog3.jpg" alt="Blog 3">
+                <div class="blog-content">
+                    <h3>Maintaining a Healthy Lifestyle</h3>
+                    <p class="date">May 20, 2024</p>
+                    <p>Tips on balancing fitness, nutrition, and mental health for models.</p>
+                    <a href="#" class="read-more">Read More ></a>
+                </div>
+            </div>
+        </div>
+        <p class="see-more">See more ></p>
+    </section>
+    
+    <section id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h1>TMH</h1>
+                <p>Brand ambassador is an online and physical modeling platform that transform aspiring models into supermodels. It comprises series of creative competition that trains, educate and exposes participate to real life modeling jobs. Each season is a total of 15 exciting episodes with wide coverage of fashion, styling, beauty and advertisement. The winner will be picked base on 70% viewers votes and 30% panelist</p>
+                <p>Brand ambassador provides solid handson experience to models and serves as door to door advertisement to brands.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/pic9.jpeg" alt="About Us">
+            </div>
+        </div>
+        <p class="see-more">See more ></p>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Model Ambassador Competition. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
